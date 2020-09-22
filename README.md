@@ -9,11 +9,11 @@ To use Bitap for GenASM, we make two key algorithmic modifications that allow us
 To appear in _Proceedings of the 53rd International Symposium on Microarchitecture (MICRO),_ Virtual, October 2020.
 
 ## Talks
-[ARM Research Summit Talk Video (21 minutes)] 
-[ARM Research Summit Short Talk Video (15 minutes)] 
-[ARM Research Summit Short Talk Video and Q&A (31 minutes)] 
-[ARM Research Summit Talk Slides (pptx) (pdf)] 
-[ARM Research Summit Short Talk Slides (pptx) (pdf)]
+The presentations of the paper are available on YouTube:
+[ARM Research Summit Talk Video (21 minutes)](https://www.youtube.com/watch?v=oKYqVo1UTdE)
+[ARM Research Summit Short Talk Video (15 minutes)](https://www.youtube.com/watch?v=omqCTHlnMA0)
+[ARM Research Summit Short Talk Video and Q&A (31 minutes)](https://www.youtube.com/watch?v=y1S6gtGz2bo) 
+
 
 ## Contact
 Damla Senol Cali (dsenol@andrew.cmu.edu)
