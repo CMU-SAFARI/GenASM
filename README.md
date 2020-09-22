@@ -10,8 +10,11 @@ To appear in _Proceedings of the 53rd International Symposium on Microarchitectu
 
 ## Talks
 The presentations of the paper are available on YouTube:
+
 [ARM Research Summit Talk Video (21 minutes)](https://www.youtube.com/watch?v=oKYqVo1UTdE)
+
 [ARM Research Summit Short Talk Video (15 minutes)](https://www.youtube.com/watch?v=omqCTHlnMA0)
+
 [ARM Research Summit Short Talk Video and Q&A (31 minutes)](https://www.youtube.com/watch?v=y1S6gtGz2bo) 
 
 
