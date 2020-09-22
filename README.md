@@ -8,5 +8,12 @@ To use Bitap for GenASM, we make two key algorithmic modifications that allow us
 [**"GenASM: A High-Performance, Low-Power Approximate String Matching Acceleration Framework for Genome Sequence Analysis."**](https://people.inf.ethz.ch/omutlu/pub/GenASM-approximate-string-matching-framework-for-genome-analysis_micro20.pdf)
 To appear in _Proceedings of the 53rd International Symposium on Microarchitecture (MICRO),_ Virtual, October 2020.
 
+## Talks
+[ARM Research Summit Talk Video (21 minutes)] 
+[ARM Research Summit Short Talk Video (15 minutes)] 
+[ARM Research Summit Short Talk Video and Q&A (31 minutes)] 
+[ARM Research Summit Talk Slides (pptx) (pdf)] 
+[ARM Research Summit Short Talk Slides (pptx) (pdf)]
+
 ## Contact
 Damla Senol Cali (dsenol@andrew.cmu.edu)
