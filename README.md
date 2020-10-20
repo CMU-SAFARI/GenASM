@@ -9,6 +9,12 @@ To use Bitap for GenASM, we make two key algorithmic modifications that allow us
 
 ## GenASM-TB Algorithm
 
+## Installing and Running GenASM
+
+### Read Alignment (DC+TB)
+
+### Pre-Alignment Filtering (DC only)
+
 ## Citation
 >Damla Senol Cali, Gurpreet S. Kalsi, Zülal Bingöl, Can Firtina, Lavanya Subramanian, Jeremie S. Kim, Rachata Ausavarungnirun, Mohammed Alser, Juan Gomez-Luna, Amirali Boroumand, Anant Nori, Allison Scibisz, Sreenivas Subramoney, Can Alkan, Saugata Ghose, and Onur Mutlu.
 [**"GenASM: A High-Performance, Low-Power Approximate String Matching Acceleration Framework for Genome Sequence Analysis."**](https://people.inf.ethz.ch/omutlu/pub/GenASM-approximate-string-matching-framework-for-genome-analysis_micro20.pdf)
