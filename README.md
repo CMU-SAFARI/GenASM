@@ -31,6 +31,10 @@ In order to decrease the memory footprint of the algorithm, we apply a divide-an
 
 ### Pre-Alignment Filtering (DC only)
 
+Call the following function in genasm-filter.c file in your code or update the existing main() in genasm-filter.c file:
+
+  $ genasm-filter(<reference sequence>, <query sequence>, <edit distance threshold>);
+
 ## Citation
 >Damla Senol Cali, Gurpreet S. Kalsi, Zülal Bingöl, Can Firtina, Lavanya Subramanian, Jeremie S. Kim, Rachata Ausavarungnirun, Mohammed Alser, Juan Gomez-Luna, Amirali Boroumand, Anant Nori, Allison Scibisz, Sreenivas Subramoney, Can Alkan, Saugata Ghose, and Onur Mutlu.
 [**"GenASM: A High-Performance, Low-Power Approximate String Matching Acceleration Framework for Genome Sequence Analysis."**](https://people.inf.ethz.ch/omutlu/pub/GenASM-approximate-string-matching-framework-for-genome-analysis_micro20.pdf)
