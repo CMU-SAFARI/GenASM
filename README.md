@@ -30,17 +30,28 @@ In order to decrease the memory footprint of the algorithm, we apply a divide-an
 
 ### Read Alignment (DC+TB)
 
-### Pre-Alignment Filtering (DC only)
-
-Call the following function in genasm-filter.c file in your code or update the existing main() in genasm-filter.c file:
+Call the following function in genasm_aligner.c file in your C code or update the existing main() in genasm_aligner.c file:
 
 ```bash
-genasm-filter(<reference sequence>, <query sequence>, <edit distance threshold>)
+genasm_aligner(<reference sequence>, <query sequence>, <edit distance threshold>, <match score>, <substitution penalty>, <gap-opening penalty>, <gap-extension penalty>)
 ```
 For example:
 
 ```bash
-genasm-filter("AAAGAAAAGAATTTTCAACCCAGAATTTCATATCCAGCCAAACTACGCTTCATAAGTGAAGGAGAAATAAAATCCTTTACAGACAAGCAAATGCTGAGAG", "AAAGAAAAGAATTTTCAACCCAGAATTTCATATCCAGCCAAACAAAGCTTCATAAGTGAAGGAGAAATAAATCCTTTACAGAGAAGCAAATGCTGAGAGA", 6);
+genasm_aligner("AATGTCC", "ATCTCGC", 3, 3, 4, 5, 1);
+```
+
+### Pre-Alignment Filtering (DC only)
+
+Call the following function in genasm_filter.c file in your code or update the existing main() in genasm_filter.c file:
+
+```bash
+genasm_filter(<reference sequence>, <query sequence>, <edit distance threshold>)
+```
+For example:
+
+```bash
+genasm_filter("ACTACGCTTGAAATCCACAAGCATGCTGAG", "ACAAAGCTTGAATCCAGAAGCATGCTAGAG", 6);
 ```
 
 ## Citation
