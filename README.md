@@ -25,7 +25,7 @@ GenASM-TB uses the intermediate bitvectors generated and saved in each iteration
 
 In order to decrease the memory footprint of the algorithm, we apply a divide-and-conquer approach. Instead of storing all of the bitvectors for m + k text characters, we divide the text and pattern into overlapping windows (i.e., sub-text and sub-pattern) and perform the traceback computation for each window. After all of the windows’ partial traceback outputs are generated, we merge them to find the complete traceback output. This approach helps us to to (W × 4 × W × W) bits, where W is the window size.
 
-## Installing and Running GenASM
+## Running GenASM
 
 ### Read Alignment (DC+TB)
 
@@ -33,7 +33,9 @@ In order to decrease the memory footprint of the algorithm, we apply a divide-an
 
 Call the following function in genasm-filter.c file in your code or update the existing main() in genasm-filter.c file:
 
-  $ genasm-filter(<reference sequence>, <query sequence>, <edit distance threshold>);
+```bash
+genasm-filter(<reference sequence>, <query sequence>, <edit distance threshold>)
+```
 
 ## Citation
 >Damla Senol Cali, Gurpreet S. Kalsi, Zülal Bingöl, Can Firtina, Lavanya Subramanian, Jeremie S. Kim, Rachata Ausavarungnirun, Mohammed Alser, Juan Gomez-Luna, Amirali Boroumand, Anant Nori, Allison Scibisz, Sreenivas Subramoney, Can Alkan, Saugata Ghose, and Onur Mutlu.
