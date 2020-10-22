@@ -62,12 +62,6 @@ In _Proceedings of the 53rd International Symposium on Microarchitecture (MICRO)
 ## Talks
 The presentations of the paper are available on YouTube:
 
-* [ARM Research Summit Talk Video (21 minutes)](https://www.youtube.com/watch?v=oKYqVo1UTdE)
-
-* [ARM Research Summit Short Talk Video (15 minutes)](https://www.youtube.com/watch?v=omqCTHlnMA0)
-
-* [ARM Research Summit Short Talk Video and Q&A (31 minutes)](https://www.youtube.com/watch?v=y1S6gtGz2bo) 
-
 * [MICRO 2020 Full Talk Video (18 minutes)](https://www.youtube.com/watch?v=srQVqPJFqjo&t=5s)
   * [Slides (PDF)](https://people.inf.ethz.ch/omutlu/pub/GenASM-approximate-string-matching-framework-for-genome-analysis_micro20-talk.pdf)
 
@@ -76,6 +70,12 @@ The presentations of the paper are available on YouTube:
 
 * [MICRO 2020 Lightning Talk Video (1.5 minutes)](https://www.youtube.com/watch?v=nJs3RRnvk_k&t=2s) 
   * [Slides (PDF)](https://people.inf.ethz.ch/omutlu/pub/GenASM-approximate-string-matching-framework-for-genome-analysis_micro20-lightning-talk.pdf)
+
+* [ARM Research Summit Talk Video (21 minutes)](https://www.youtube.com/watch?v=oKYqVo1UTdE)
+
+* [ARM Research Summit Short Talk Video (15 minutes)](https://www.youtube.com/watch?v=omqCTHlnMA0)
+
+* [ARM Research Summit Short Talk Video and Q&A (31 minutes)](https://www.youtube.com/watch?v=y1S6gtGz2bo)
 
 ## Contact
 Damla Senol Cali (dsenol@andrew.cmu.edu)
