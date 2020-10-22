@@ -71,6 +71,9 @@ The presentations of the paper are available on YouTube:
 * [MICRO 2020 Full Talk Video (18 minutes)](https://www.youtube.com/watch?v=srQVqPJFqjo&t=5s)
   * [Slides (PDF)](https://people.inf.ethz.ch/omutlu/pub/GenASM-approximate-string-matching-framework-for-genome-analysis_micro20-talk.pdf)
 
+* [MICRO 2020 Short Talk Video (6 minutes)](https://www.youtube.com/watch?v=I__0Tu6LxAY) 
+  * [Slides (PDF)](https://people.inf.ethz.ch/omutlu/pub/GenASM-approximate-string-matching-framework-for-genome-analysis_micro20-short-talk.pdf)
+
 * [MICRO 2020 Lightning Talk Video (1.5 minutes)](https://www.youtube.com/watch?v=nJs3RRnvk_k&t=2s) 
   * [Slides (PDF)](https://people.inf.ethz.ch/omutlu/pub/GenASM-approximate-string-matching-framework-for-genome-analysis_micro20-lightning-talk.pdf)
 
