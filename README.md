@@ -21,10 +21,8 @@ After finding the matching location of the text and the edit distance with GenAS
 
 GenASM-TB uses the intermediate bitvectors generated and saved in each iteration of the GenASM-DC algorithm (i.e., match, substitution, deletion and insertion bitvectors). After a value 0 is found at the MSB of one of the R[d] bitvectors (i.e., a string match is found with d errors), GenASM-TB walks through the bitvectors back to the LSB, following a chain of 0s (which indicate matches at each location) and reverting the bitwise operations. At each position, based on which of the four bitvectors holds a value 0 in each iteration (starting with an MSB with a 0 and ending with an LSB with a 0), the sequence of matches, substitutions, insertions and deletions (i.e., traceback output) is found for each position of the corresponding alignment found by GenASM-DC. Unlike GenASM-DC, GenASM-TB has an irregular control flow within the stored intermediate bitvectors, which depends on the text and the pattern.
 
-<!---
 **Divide-and-Conquer Approach.** Since GenASM-DC stores all of the intermediate bitvectors, in the worst case, the length of the text region that the query pattern maps to can be m + k, assuming all of the errors are deletions from the pattern. Since we need to store all of the bitvectors for m + k characters, and compute 4 × k many bitvectors within each text iteration (each m bits long), the memory requirement is ((m + k) × 4 × k × m) bits.
-In order to decrease the memory footprint of the algorithm, we apply a divide-and-conquer approach. Instead of storing all of the bitvectors for m + k text characters, we divide the text and pattern into overlapping windows (i.e., sub-text and sub-pattern) and perform the traceback computation for each window. After all of the windows’ partial traceback outputs are generated, we merge them to find the complete traceback output. This approach helps us to to (W × 4 × W × W) bits, where W is the window size.
--->
+In order to decrease the memory footprint of the algorithm, we apply a divide-and-conquer approach. Instead of storing all of the bitvectors for m + k text characters, we divide the text and pattern into overlapping windows (i.e., sub-text and sub-pattern) and perform the traceback computation for each window, where W is the window size and O is the overlap size. After all of the windows’ partial traceback outputs are generated, we merge them to find the complete traceback output. This approach helps us to store (W × 4 × W × W) bits.
 
 ## Running GenASM
 
@@ -39,6 +37,19 @@ For example:
 
 ```bash
 genasm_aligner("AATGTCC", "ATCTCGC", 3, 3, 4, 5, 1);
+```
+
+### Read Alignment (DC+TB) with Divide-and-Conquer (DQ)
+
+Call the following function in genasm_aligner_withDQ.c file in your C code or update the existing main() in genasm_aligner_withDQ.c file:
+
+```bash
+genasm_aligner(<reference sequence>, <query sequence>, <edit distance threshold>, <window size>, <overlap size>, <match score>, <substitution penalty>, <gap-opening penalty>, <gap-extension penalty>)
+```
+For example:
+
+```bash
+genasm_aligner("AATGTCC", "ATCTCGC", 3, 20, 10, 3, 4, 5, 1);
 ```
 
 ### Pre-Alignment Filtering (DC only)
