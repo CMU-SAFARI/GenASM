@@ -89,4 +89,4 @@ The presentations of the paper are available on YouTube:
 * [ARM Research Summit Short Talk Video and Q&A (31 minutes)](https://www.youtube.com/watch?v=y1S6gtGz2bo)
 
 ## Contact
-Damla Senol Cali (dsenol@andrew.cmu.edu)
+Damla Senol Cali (damlasenolcali@gmail.com)
