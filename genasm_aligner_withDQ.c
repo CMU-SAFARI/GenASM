@@ -640,7 +640,7 @@ void genasmDC(char *text, char *pattern, int k, int W, int O, int scoreM, int sc
         int textConsumed;
         int patternConsumed;
         
-        genasmTB(tracebackMatrix, count, W, O, m_sub, minError, &ed, &textConsumed, &patternConsumed, mask, &lastChar, &lastChar2, &lastChar3, &charCount, &charCount2, &charCount3,  CIGARstr, CIGARstr2, MD, text, &countM, &countS, &countD, &countI, &countOpen, &countExtend, &isFirst, scoreS, scoreOpen, scoreExtend);
+        genasmTB(tracebackMatrix, count, W, O, m_sub, minError, &ed, &textConsumed, &patternConsumed, mask, &lastChar, &lastChar2, &lastChar3, &charCount, &charCount2, &charCount3,  CIGARstr, CIGARstr2, MD, subText, &countM, &countS, &countD, &countI, &countOpen, &countExtend, &isFirst, scoreS, scoreOpen, scoreExtend);
         
         textCur += textConsumed;
         patternCur += patternConsumed;
